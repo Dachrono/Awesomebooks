@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 7rem 1fr 5rem;
+  height: 100vh;
+  align-items: center;
+}
+
+header {
+  grid-row: 1 / 2;
+}
+
+main {
+  grid-row: 2 / 3;
+}
+
+footer {
+  grid-row: 3 / 4;
+}
+
+tr,
+td {
+  border: none;
+}
+
+#add-book__form {
+  width: 30vw;
+  min-width: 15rem;
+}
+
+#navbar__logo {
+  text-shadow: 3px 3px #bdbdbd69;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+  text-decoration: underline;
+}
+
+#book__title {
+  padding-left: 1em;
+}
+
+#contact__container {
+  width: fit-content;
+}
+
+@media screen and (max-width: 991.5px) {
+  header span.align-middle {
+    display: none;
+  }
+}

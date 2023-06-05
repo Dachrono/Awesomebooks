@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <title>Awesome Books</title>
+</head>
+
+<body class="ps-3 pe-3">
+  <header class="w-100">
+    <nav class="navbar navbar-expand-lg bg-light border border-2 rounded-5 mt-3 p-1 ps-2 align-self-start">
+      <div class="container-fluid">
+        <a id="navbar__logo" class="navbar-brand fw-bolder text-primary fs-4" href="#">Awesome Books</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li id="menu__list" class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">List</a>
+            </li>
+            <span class="align-middle">|</span>
+            <li class="nav-item">
+              <a id="menu__add-new" class="nav-link" href="#">Add New</a>
+            </li>
+            <span class="align-middle">|</span>
+            <li class="nav-item">
+              <a id="menu__contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <p id="header__date" class="text-end text-muted me-4"></p>
+  </header>
+
+  <main>
+    <section id="books" class="d-none">
+      <div id="books__container" class="d-flex flex-column justify-content-center m-auto w-75 gap-2">
+        <h1 class="text-center">All awesome books</h1>
+        <div id="books-listed__container" class="border border-2 rounded-5 p-1">
+          <p id="books-listed__text-empty" class="fst-italic text-center mb-0 text-secondary d-none">Your bookshelf is
+            empty :(</p>
+          <table class="table table-striped mb-0">
+            <tbody id="books-listed__body" class="align-middle">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="add-book" class="d-none">
+      <div id="add-book__container" class="d-flex flex-column m-auto">
+        <h2 class="text-center">Add a new book</h2>
+        <form action="" id="add-book__form" class="d-flex flex-column m-auto gap-2">
+          <input type="text" id="add-book__title" class="rounded-pill p-1 ps-3 border border-2 " placeholder="Title"
+            required />
+          <input type="text" id="add-book__author" class="rounded-pill p-1 ps-3 border border-2 " placeholder="Author"
+            required />
+          <button type="" id="add-book__add-button" class="btn btn-primary rounded-pill ms-auto ps-3 pe-3">
+            Add
+          </button>
+        </form>
+      </div>
+    </section>
+    <section id="contact" class="d-none">
+      <div id="contact__container" class="d-flex flex-column m-auto justify-content-center">
+        <h1>Contact Information</h1>
+        <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+        <ul>
+          <li>Our email: main@awesomebooks.com</li>
+          <li>Our phone number: +56 2 6615 458</li>
+          <li>Our address: Aquarius 30, 457684 Planet Earth, Via Lactea</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="m-auto w-100">
+    <div id="footer__container" class="bg-light border border-2 rounded-5 ps-3 pe-3">
+      <p class="mb-2 mt-2">© 2023 Awesome Books. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+<script src="./JS/script.js"></script>
+<script src="./JS/date.js"></script>
+<script src="./JS/pages.js"></script>
+
+</html>
