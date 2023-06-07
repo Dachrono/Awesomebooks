@@ -42,34 +42,3 @@ export const removeData = (bookID) => {
   bookList = bookList.filter((book) => book.id !== bookID);
   localStorage.setItem('Shelf', JSON.stringify(bookList));
 };
-
-function getDaySuffix(day) {
-  if (day >= 11 && day <= 13) {
-    return 'th';
-  }
-
-  switch (day % 10) {
-    case 1:
-      return 'st';
-    case 2:
-      return 'nd';
-    case 3:
-      return 'rd';
-    default:
-      return 'th';
-  }
-}
-
-export const updateDate = () => {
-  const headerDate = document.querySelector('#header__date');
-  const currentDate = new Date();
-
-  const month = currentDate.toLocaleString('en-US', { month: 'long' });
-  const day = currentDate.getDate();
-  const daySuffix = getDaySuffix(day);
-  const formattedDay = day + daySuffix;
-  const time = currentDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-  const formattedDate = `${month} ${formattedDay} ${currentDate.getFullYear()}, ${time}`;
-
-  headerDate.textContent = formattedDate;
-};

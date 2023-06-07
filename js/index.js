@@ -1,11 +1,11 @@
 import * as act from '../modules/activities.js';
 import displaySwitch from '../modules/menuFun.js';
+import updateDate from '../modules/obtainDate.js';
 
 const addButton = document.querySelector('#add-book__form');
 
 displaySwitch(0);
-act.updateDate();
-setInterval(act.updateDate(), 60000);
+updateDate();
 act.loader();
 
 addButton.addEventListener('submit', (event) => {
