@@ -4,7 +4,7 @@
   <img src="pics/logoRE.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Andy Capstone Project</b></h3>
+  <h3><b>Awesome boooks</b></h3>
 
 </div>
 
@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Veterinary international meet] <a name="about-project"></a>
+# 📖 Awesome books library <a name="about-project"></a>
 
-**Veterinary international meet** is it a web page to contact and explain to vets about the anual meet to know about at alternative food for the pet, we try to catch up more vet doctor to share the advances in this alternative area.  
+**Awesome book** is a web app that a names repository of the books inside to a library 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,13 +79,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://dachrono.github.io/capstone/
+- comming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-This project HTML/CSS & JavaScript capstone project, was created for the final activity to can pass at the next module 
+This project HTML/CSS & JavaScript is a project created for practice the js modules and js codding 
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/Dachrono/capstone.git
+- git clone https://github.com/Dachrono/Awesomebooks.git
 
 
 ### Install
@@ -166,10 +166,7 @@ If you like this project please feel fre to send me corrections for make it bett
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-🌟👤🌟 *Cindy Shin in Behance (Desing author)*
-<br><br>
-the design author is Cindy Shin in Behance and you can fins her works [here]( https://www.behance.net/adagio07) and [here]( https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) is the original design.
-As you can see I made some changes to the design such as images, backgrounds and content of the page but it doesn’t mean that is my design. I give all the design credit to the real design author.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
